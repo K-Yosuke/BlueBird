@@ -21,4 +21,11 @@ class HomeController @Inject() extends Controller {
     Ok(views.html.index("Your new application is ready."))
   }
 
+  def twitterAction = Action {
+
+    HttpGetClient.executeGet()
+
+    Ok(views.html.twitter())
+  }
+
 }
