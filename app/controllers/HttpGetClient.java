@@ -11,7 +11,7 @@ import java.util.Map;
 public class HttpGetClient {
     public static void executeGet() {
         try {
-            URL url = new URL("http://www.yahoo.co.jp/");
+            URL url = new URL("http://challenge-your-limits.herokuapp.com/call/me");
 
 
             HttpURLConnection connection = null;

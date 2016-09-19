@@ -8,10 +8,10 @@ scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
   jdbc,
+  "mysql" % "mysql-connector-java" % "6.0.3",
   cache,
   ws,
-  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  "mysql" % "mysql-connector-java" % "6.0.3"
+  "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
 // WebjarsRepository
